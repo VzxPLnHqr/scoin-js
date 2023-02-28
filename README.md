@@ -1,12 +1,6 @@
-# scoin-js
-a javascript wrapper around [fiatjaf/scoin](https://github.com/fiatjaf/scoin) for easier javascript interop
+# scoin-js demo
+just an example `index.html` page which pulls in the javascript
+library output by [fiatjaf/scoin](https://github.com/fiatjaf/scoin)
 
-This repository holds the output of [VzxPLnHqr/scoin-js](https://github.com/VzxPLnHqr/scoin-js) which is where
-the `scala <--> javascript` magic actually happens.
-
-### Usage
-
-1. include `bundle.js` in a `<script>` tag in your html file (see `index.html` for an example)
-2. a toplevel object `Scoin` should now be available
-3. in your code `Scoin.sayHello();` should print something to the console.
-
+1. [LIVE VIEW](https://vzxplnhqr.github.io/scoin-js) 
+2. Open browser dev tools, and type `Scoin.pay2tr(<xonlypubkey>)` but replace `<xonlypubkey>` with a hex-encoded BIP340 public key.
